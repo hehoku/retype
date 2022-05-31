@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
@@ -11,8 +10,9 @@ function App() {
     <div className="App">
       <nav>
         <Link to="/">Home</Link>
-        <Link to="/type-state">State's Type</Link>
-        <Link to="/jsx">JSX</Link>
+        <Link to="/type-state">State Type</Link>
+        <Link to="/jsx">JSX Type</Link>
+        <Link to="/props">Props Type</Link>
       </nav>
     </div>
   );
