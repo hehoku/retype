@@ -6,6 +6,7 @@ import TypeState from "./routes/type-state";
 import Jsx from "./routes/jsx";
 import PropElement from "./routes/props";
 import "./index.css";
+import StateType from "./routes/state";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <BrowserRouter>
@@ -14,6 +15,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
       <Route path="/type-state" element={<TypeState />} />
       <Route path="/jsx" element={<Jsx />} />
       <Route path="/props" element={<PropElement />} />
+      <Route path="/state" element={<StateType />} />
     </Routes>
   </BrowserRouter>
 );

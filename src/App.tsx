@@ -13,6 +13,7 @@ function App() {
         <Link to="/type-state">State Type</Link>
         <Link to="/jsx">JSX Type</Link>
         <Link to="/props">Props Type</Link>
+        <Link to="/state">State Type</Link>
       </nav>
     </div>
   );
