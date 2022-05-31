@@ -12,6 +12,7 @@ function App() {
       <nav>
         <Link to="/">Home</Link>
         <Link to="/type-state">State's Type</Link>
+        <Link to="/jsx">JSX</Link>
       </nav>
     </div>
   );
