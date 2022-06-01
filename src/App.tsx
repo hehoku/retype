@@ -14,6 +14,7 @@ function App() {
         <Link to="/jsx">JSX Type</Link>
         <Link to="/props">Props Type</Link>
         <Link to="/state">State Type</Link>
+        <Link to="/event">Event Type</Link>
       </nav>
     </div>
   );

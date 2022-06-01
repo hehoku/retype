@@ -7,6 +7,7 @@ import Jsx from "./routes/jsx";
 import PropElement from "./routes/props";
 import "./index.css";
 import StateType from "./routes/state";
+import Toggle from "./routes/event-type";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <BrowserRouter>
@@ -16,6 +17,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
       <Route path="/jsx" element={<Jsx />} />
       <Route path="/props" element={<PropElement />} />
       <Route path="/state" element={<StateType />} />
+      <Route path="/event" element={<Toggle />} />
     </Routes>
   </BrowserRouter>
 );
