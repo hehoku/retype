@@ -15,6 +15,7 @@ function App() {
         <Link to="/props">Props Type</Link>
         <Link to="/state">State Type</Link>
         <Link to="/event">Event Type</Link>
+        <Link to="/conditional-render">Conditional Render</Link>
       </nav>
     </div>
   );
