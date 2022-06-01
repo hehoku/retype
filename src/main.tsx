@@ -8,6 +8,7 @@ import PropElement from "./routes/props";
 import StateType from "./routes/state";
 import Toggle from "./routes/event-type";
 import LoginControl from "./routes/conditional-render";
+import NumberList from "./routes/list";
 
 import "./index.css";
 
@@ -21,6 +22,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
       <Route path="/state" element={<StateType />} />
       <Route path="/event" element={<Toggle />} />
       <Route path="/conditional-render" element={<LoginControl />} />
+      <Route path="/list" element={<NumberList numbers={[1, 2, 3, 3]} />} />
     </Routes>
   </BrowserRouter>
 );

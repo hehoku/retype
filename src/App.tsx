@@ -16,6 +16,7 @@ function App() {
         <Link to="/state">State Type</Link>
         <Link to="/event">Event Type</Link>
         <Link to="/conditional-render">Conditional Render</Link>
+        <Link to="/list">List Type</Link>
       </nav>
     </div>
   );
