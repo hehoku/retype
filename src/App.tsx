@@ -17,6 +17,7 @@ function App() {
         <Link to="/event">Event Type</Link>
         <Link to="/conditional-render">Conditional Render</Link>
         <Link to="/list">List Type</Link>
+        <Link to="/form">Form</Link>
       </nav>
     </div>
   );

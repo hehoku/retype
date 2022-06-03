@@ -11,6 +11,7 @@ import LoginControl from "./routes/conditional-render";
 import NumberList from "./routes/list";
 
 import "./index.css";
+import NameForm from "./routes/form";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <BrowserRouter>
@@ -23,6 +24,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
       <Route path="/event" element={<Toggle />} />
       <Route path="/conditional-render" element={<LoginControl />} />
       <Route path="/list" element={<NumberList numbers={[1, 2, 3, 3]} />} />
+      <Route path="/form" element={<NameForm />} />
     </Routes>
   </BrowserRouter>
 );
